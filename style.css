@@ -59,7 +59,6 @@
 
 .search-address {
     width: 50%;
-    max-width: 50%;
     height: 40px;
     background-color: orange;
     border-radius: 5px;
@@ -256,19 +255,21 @@ ul a{
 
 /* Add this media query at the end of your CSS file */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     /* Adjustments for smaller screens */
     .navbar {
         flex-direction: column;
         height: auto;
+        align-items: center; /* Center align items */
     }
     
     .nav-logo {
-        margin: 0 auto; /* Center the logo */
+        margin: 10px auto; /* Center the logo with some margin */
     }
 
     .search-address {
-        width: 100%; /* Make the search bar full width */
+        width: 90%; /* Make the search bar almost full width */
+        margin: 10px auto; /* Center the search bar */
     }
 
     .selection {
@@ -278,27 +279,14 @@ ul a{
     /* Adjustments for the panel below header */
     .panel {
         font-size: 0.8rem;
+        margin-top: 10px; /* Add some top margin for spacing */
     }
 
-    /* Adjustments for the shop content */
-    .shop-content {
-        justify-content: center;
+    .panel-all {
+        padding: 5px 10px; /* Adjust padding for panel items */
     }
+}
 
-    .box {
-        width: 90%; /* Make the boxes almost full width */
-    }
-
-    /* Adjustments for the footer */
-    .footer1, .footer2 {
-        flex-direction: column;
-        height: auto;
-        padding: 1em;
-    }
-
-    ul {
-        text-align: center; /* Center align list items */
-    }
 }
 
 
