@@ -1,0 +1,267 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: border box;
+    font-family: Arial;
+
+}
+
+
+.navbar {
+    height: 55px;
+    background-color: rgb(19,25,33);
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    
+}
+.logo {
+    background-image: url(logo.jpg);
+    background-size: auto 50px ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+.add {
+    display: flex;
+}
+
+.navaddress {
+    
+    margin-left: 10px;
+}
+
+.deliver {
+    font-size: 11px;
+    font-weight: 100;
+    color: #CCCCCC;
+    margin-left: 15px;
+}
+.India {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.search-address {
+    width: 50%;
+    max-width: 50%;
+    height: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.selection {
+    background-color:rgb(230,230,230);
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 0.799rem;
+}
+
+.search-icon i{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+i {
+    color: black;
+}
+
+ .up {
+    font-size: 14px;
+    color: #CCCCCC;
+
+}
+
+ .lo {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.searchbar {
+    width: 100%;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.cart{
+    
+    display: flex;
+}
+
+.cart .cart-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/* panel below header */
+
+.panel {
+    height: 40px;
+    font-size: 0.9rem;
+    color: ivory;
+    background-color:rgb(35,47,62) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-all{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+/* .Fresh, .Amazon-minitv, .Bestseller {
+    padding: 10px;
+} */
+
+.pad {
+    padding: 10px;
+    font-weight: 520;
+    cursor: pointer;
+}
+
+
+/* hero section */
+.hero-section {
+    background-image: url(hero.jpg);
+    height: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+/* shop content*/
+
+.shop-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+.box {
+    cursor: pointer;
+    height: 480px;
+    background-color: white;
+    width: 23%; /* Adjust the width as needed */
+    margin-bottom: 40px;
+    border: none;
+    text-align: center;
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ib {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box a {
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-decoration: none;
+    color: #007185;
+}
+
+.box h2{
+    text-align: left;
+}
+
+/* footer */
+.back button{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(55,71,90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back button:hover{
+    background-color: rgb(90, 114, 143);
+}
+.back .button:active{
+    color:rgb(55,71,90);
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: #CCCCCC;
+    margin: 10pxs;
+
+}
+
+.footer1 a:hover{
+    text-decoration: underline;
+}
+
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19,25,33);
+    height: 470px;
+    padding: 2em;
+}
+
+ul a{
+    margin: 10pxs;
+}
+
+.footer2 {
+    height: 100px;
+    background-color: rgb(19,25,33);
+    border-top: 1px solid grey;
+    color: #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Existing CSS styles */
+
+/* Add a media query for smartphones */
+@media screen and (max-width: 767px) {
+    .box {
+        width: 100%; /* Set width to 100% for full width */
+        margin-bottom: 20px; /* Reduce bottom margin for spacing */
+    }
+}
+
+
