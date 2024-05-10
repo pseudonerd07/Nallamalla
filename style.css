@@ -254,13 +254,50 @@ ul a{
     align-items: center;
 }
 
-/* Existing CSS styles */
+/* Add this media query at the end of your CSS file */
 
-/* Add a media query for smartphones */
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .nav-logo {
+        margin: 0 auto; /* Center the logo */
+    }
+
+    .search-address {
+        width: 100%; /* Make the search bar full width */
+    }
+
+    .selection {
+        width: 70%; /* Adjust width of the selection input */
+    }
+
+    /* Adjustments for the panel below header */
+    .panel {
+        font-size: 0.8rem;
+    }
+
+    /* Adjustments for the shop content */
+    .shop-content {
+        justify-content: center;
+    }
+
     .box {
-        width: 100%; /* Set width to 100% for full width */
-        margin-bottom: 20px; /* Reduce bottom margin for spacing */
+        width: 90%; /* Make the boxes almost full width */
+    }
+
+    /* Adjustments for the footer */
+    .footer1, .footer2 {
+        flex-direction: column;
+        height: auto;
+        padding: 1em;
+    }
+
+    ul {
+        text-align: center; /* Center align list items */
     }
 }
 
