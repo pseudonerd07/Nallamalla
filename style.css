@@ -254,14 +254,7 @@ ul a{
     align-items: center;
 }
 
-/* Existing CSS styles */
 
-/* Add a media query for smartphones */
-@media screen and (max-width: 767px) {
-    .box {
-        width: 100%; /* Set width to 100% for full width */
-        margin-bottom: 20px; /* Reduce bottom margin for spacing */
-    }
 }
 
 
